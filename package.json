@@ -16,10 +16,11 @@
   "author": "peterngtr",
   "license": "ISC",
   "dependencies": {
-    "codeceptjs": "^3.4.1",
-    "playwright": "^1.28.1",
-    "@codeceptjs/allure-legacy": "^1.0.2",
-    "allure-commandline": "^2.22.1"
+    "codeceptjs": "3.4.1",
+    "playwright": "1.28.1",
+    "@codeceptjs/allure-legacy": "1.0.2",
+    "allure-commandline": "2.22.1",
+    "allure-patch": "1.0.3"
   },
   "devDependencies": {
     "@types/node": "^18.11.10",
