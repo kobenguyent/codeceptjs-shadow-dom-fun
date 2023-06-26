@@ -21,5 +21,12 @@ export const config: CodeceptJS.MainConfig = {
     I: './steps_file'
   },
   name: 'codeceptjs-shadow-dom-fun',
-  fullPromiseBased: false
+  fullPromiseBased: false,
+  plugins: {
+    allure: {
+      enabled: true,
+      require: "@codeceptjs/allure-legacy",
+      outputDir: "./output",
+    },
+  },
 }

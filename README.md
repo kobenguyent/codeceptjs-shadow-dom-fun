@@ -44,8 +44,8 @@ Example output
 > codeceptjs-shadow-dom-fun@1.0.0 test
 > codeceptjs run --verbose
 
-CodeceptJS v3.3.7 #StandWithUkraine
-Using test root "/Users/trung-thanh/Desktop/codeceptjs-shadow-dom-fun"
+CodeceptJS v3.4.1 #StandWithUkraine
+Using test root "/Users/thanh.nguyen/Desktop/codeceptjs-shadow-dom-fun"
 Helpers: Playwright
 Plugins: screenshotOnFail, tryTo, retryTo, eachElement
 
@@ -59,9 +59,9 @@ ShadowDom --
     I press key "Enter"
     I wait for element "h2[class="title"]"
     I see element in d o m "h2[class="title"]"
-  ✔ OK in 1740ms
+  ✔ OK in 2128ms
 
 
-  OK  | 1 passed   // 2s
+  OK  | 1 passed   // 3s
 
 ```

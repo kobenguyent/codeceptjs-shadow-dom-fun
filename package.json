@@ -1,10 +1,12 @@
 {
   "name": "codeceptjs-shadow-dom-fun",
   "version": "1.0.0",
-  "description": "Codeceptjs with shadow fun",
+  "description": "Codeceptjs with shadow DOM fun",
   "main": "index.js",
   "scripts": {
-    "test": "codeceptjs run --verbose"
+    "test": "codeceptjs run --verbose",
+    "allure-reports-generate": "allure generate ./output -o ./output/allure --clean",
+    "allure-reports-patch": "allure-patch ./output/allure"
   },
   "keywords": [
     "shadow",
@@ -14,8 +16,10 @@
   "author": "peterngtr",
   "license": "ISC",
   "dependencies": {
-    "codeceptjs": "^3.3.7",
-    "playwright": "^1.28.1"
+    "codeceptjs": "^3.4.1",
+    "playwright": "^1.28.1",
+    "@codeceptjs/allure-legacy": "^1.0.2",
+    "allure-commandline": "^2.22.1"
   },
   "devDependencies": {
     "@types/node": "^18.11.10",
