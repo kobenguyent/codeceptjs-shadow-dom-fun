@@ -21,7 +21,7 @@ This test uses a number of open source projects to work properly:
 
 ### Installation
 
-This requires [Node.js](https://nodejs.org/) v14+ to run.
+This requires [Node.js](https://nodejs.org/) v16+ to run.
 
 Install the dependencies and devDependencies.
 
@@ -65,3 +65,5 @@ ShadowDom --
   OK  | 1 passed   // 3s
 
 ```
+## Report
+https://kobenguyent.github.io/codeceptjs-shadow-dom-fun/
